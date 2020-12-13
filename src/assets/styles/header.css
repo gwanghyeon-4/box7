@@ -1,0 +1,46 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background-color:aqua;
+    color: #dfe6e9;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.header .header__col1 { 
+    width: 100%;
+    height: 100%;
+}
+
+.header .header__col2 { 
+    width: 450px;
+    min-width: 450px;
+    height: 100%;
+}
+
+.header .header__col2 .header__col2__ul { 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header a {
+    text-decoration: none;
+    color: #dfe6e9;
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.5s;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.header a:hover {
+    color: hotpink;
+}
+
+header h2 a:hover {
+    color: indigo;
+}
